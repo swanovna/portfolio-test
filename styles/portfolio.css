@@ -31,7 +31,8 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 15em 2em;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
 }
 
 .hero h1 {
@@ -108,6 +109,12 @@ p {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
+  .hero {
+    padding-top: 10rem !important;
+    padding-bottom: 10rem !important;
+  }
+
   .hero h1 {
     font-size: 72px;
   }

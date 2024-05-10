@@ -15,6 +15,10 @@ h3 {
   font-family: var(--default-headline-font);
 }
 
+h1 {
+  font-size: 64px;
+}
+
 h2 {
   font-size: 64px;
 }
@@ -26,6 +30,25 @@ p {
   color: var(--default-text-color);
   opacity: 80%;
   line-height: 30px;
+}
+
+.about-projects h2 {
+  font-family: var(--default-font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.about-projects p {
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--default-text-color);
+  opacity: 70%;
+  line-height: 30px;
+  text-align: center;
 }
 
 .hero {
@@ -58,16 +81,16 @@ p {
   padding-bottom: 15rem;
 }
 
-.hero-about h1 {
-  font-size: 64px;
-}
-
 .hero-about h2 {
   font-family: var(--default-font-family);
   font-weight: 400;
   font-size: 24px;
   color: var(--default-text-color);
   line-height: 1.5;
+}
+
+.hero-projects {
+  padding-top: 15rem;
 }
 
 .btn-branding {

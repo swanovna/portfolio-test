@@ -17,6 +17,7 @@ h1 {
 h2,
 h3 {
   font-family: var(--default-font-family);
+  color: var(--default-text-color);
   font-size: 18px;
   font-weight: 700;
   line-height: 4rem;
@@ -54,17 +55,18 @@ p {
   border-radius: 4px;
 }
 
-.first-page h1 {
-  font-size: 96px;
-}
 .first-page h2 {
   font-size: 64px;
 }
+
 .first-page-hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding-top: 20rem;
-  padding-bottom: 20rem;
+} 
+
+.first-page-hero h1 {
+  font-size: 96px;
+  color: black;
 }
 
 .first-page-hero h2 {
@@ -79,6 +81,7 @@ p {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.5;
+  color: var(--default-text-color);
 }
 
 .first-page-colored-block {

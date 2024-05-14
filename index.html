@@ -34,13 +34,38 @@
     <title>Tatiana Lebedeva — Frontend Developer</title>
   </head>
   <body>
-    <div class="first-page-hero hero">
-      <p class="mb-4">Hi, I am</p>
-      <h1 class="mb-5">Tatiana Lebedeva</h1>
-      <h2 class="mb-5">Frontend developer, based in New Zealand.</h2>
-      <a href="#" class="btn btn-branding mt-3">Get Started</a>
+    <div class="first-page-hero">
+      <div class="container first-page">
+        <nav class="d-flex justify-content-between">
+          <a href="/"
+            ><img
+              src="images/logo.png"
+              class="logo d-none d-md-block"
+              alt="SheCodes logo"
+          /></a>
+          <a href="/"
+            ><img
+              src="images/small-logo.png"
+              class="logo d-block d-md-none pe-3"
+              alt="SheCodes logo"
+          /></a>
+
+          <ul>
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero">
+        <p class="mb-4">Hi, I am</p>
+        <h1 class="mb-5">Tatiana Lebedeva</h1>
+        <h2 class="mb-5">Frontend developer, based in New Zealand.</h2>
+        <a href="/#project-list" class="btn btn-branding mt-3">Get Started</a>
+      </div>
     </div>
-    <div class="text-center m-5 project-list">
+    <div class="text-center m-5 project-list" id="project-list">
       Featured Project which my best projects be choice to show
     </div>
     <div class="container">
